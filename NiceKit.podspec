@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NiceKit'
-  s.version          = '0.2'
+  s.version          = '0.3'
   s.summary          = 'My amazing kit.'
   s.swift_version    = '4.2'
 # This description is used to generate tags and improve search results.
