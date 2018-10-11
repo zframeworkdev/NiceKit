@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NiceKit_Example' do
+  pod 'NiceKit', :path => '../'
+
+  target 'NiceKit_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
